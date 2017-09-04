@@ -89,7 +89,7 @@ if __name__=='__main__':
     #dic={"Category":"Work","SubCategory":"3rd Level Graduate Scheme ","ConfirmGNIB":"Renewal"}
     #dic={"Category":"Study","SubCategory":"Masters","ConfirmGNIB":"Renewal"}
     dic={"Category":"Study","SubCategory":"Degree","ConfirmGNIB":"Renewal"}
-    f = open('b.txt', 'r')
+    f = open('a.txt', 'r')
     for line in f.readlines():
         dic[line.split('=')[0]] = line.split('=')[1]
     a=gnib(dic["Category"],dic["SubCategory"],dic["ConfirmGNIB"],dic["GNIBNo"],dic["GNIBExDT"],dic["GivenName"],dic["SurName"],dic["DOB"],dic["Email"],dic["PPNo"])
