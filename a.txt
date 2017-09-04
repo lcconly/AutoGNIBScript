@@ -1,0 +1,7 @@
+GNIBNo=GNIB number
+GNIBExDT=Expire date of GNIB: DD/MM/YYYY 
+GivenName=Your Given Name 
+SurName=Your SurName
+DOB=Your Date of birth: DD/MM/YYYY
+Email=Your Email
+PPNo=Your Passport
