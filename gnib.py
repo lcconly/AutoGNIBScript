@@ -10,8 +10,8 @@ import re
 import time
 from splinter import Browser
 from twilio.rest import Client
-account_sid = "AC24d9fac3b3e1db8eccd4122382ccb0ca"
-auth_token = "57cbb860330240eedd90d1d655708a38"
+account_sid = "XXXXXXXXXXX"
+auth_token = "XXXXXXXXXXX"
 client = Client(account_sid, auth_token)
 Month={1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",7:"Jul",8:"Aug",9:"Sep",10:"Oct",11:"Nov",12:"Dec"}
 browser=Browser('chrome')
