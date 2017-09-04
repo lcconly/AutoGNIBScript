@@ -78,11 +78,11 @@ class gnib:
                         run =False
                         break
             count=count+1
-            print("第"+str(count)+"次搜索")
+            print("Search Time: "+str(count))
             time.sleep(10)
             if run==True:
                 browser.find_by_id('btSrch4Apps').click()
-        message = client.messages.create(to="+353838399480",from_="+353861802860",body="Hurry UP!!! Look at the computer!!!!")
+        message = client.messages.create(to="Receive Number",from_="Sent Number in Twilio",body="Hurry UP!!! Look at the computer!!!!")
 
 
 if __name__=='__main__':
